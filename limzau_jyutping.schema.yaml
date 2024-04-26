@@ -100,7 +100,8 @@ speller:
     #- derive/^sl/lh/              # 容错 sl -> lh
     - derive/sl/x/               # 容错 sl -> x
     #- derive/oe/eo/               # 容錯 oe -> eo
-    - derive/oe/y/                # 容錯 oe -> y
+    #- derive/oe/y/                # 容錯 oe -> y
+    - derive/j/y/                # 廉式容錯 oe -> y
     #- derive/[^o]e/ie/           # 容錯 e  -> ie
     #- derive/au/ou/               # 容錯 au -> ou
     - derive/oa$/a/               # 容錯 aa -> a
