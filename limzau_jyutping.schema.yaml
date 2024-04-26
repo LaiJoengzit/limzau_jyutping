@@ -4,7 +4,7 @@
 schema:
   schema_id: limzau_jyutping
   name: 廉拼
-  version: "1.0"
+  version: "1.1"
   author:
     - Dr.Khuy
   description: |
@@ -133,7 +133,8 @@ translator:
     - "xform r nj"
     - "xform v ng"
     - "xform x sl"
-    - "xform y oe"
+#    - "xform y oe" #非廉式
+    - "xform y j" #廉式
     - "xform/\\bnj\\\\/ȵ\\\\/"
     - "xform/\\bng\\\\/ŋ\\\\/"
     - "xform/\\bsl\\\\/ɬ\\\\/"
